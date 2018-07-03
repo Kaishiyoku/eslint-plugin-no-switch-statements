@@ -1,6 +1,6 @@
 import test from 'ava';
 import avaRuleTester from 'eslint-ava-rule-tester';
-import rule from '../lib/rules/disallow-switch';
+import rule from '../lib/rules/no-switch';
 
 const ruleTester = avaRuleTester(test, {
     env: {
@@ -12,7 +12,7 @@ const ruleTester = avaRuleTester(test, {
 });
 
 const error = {
-    ruleId: 'disallow-switch',
+    ruleId: 'no-switch',
     message: 'Unallowed use of `switch` statement'
 };
 
@@ -31,7 +31,7 @@ const switchContent = `var test = 3;
         console.log('unknown');
 }`;
 
-ruleTester.run('disallow-switch', rule, {
+ruleTester.run('no-switch', rule, {
     valid: [
         'function foo() {}'
     ],
