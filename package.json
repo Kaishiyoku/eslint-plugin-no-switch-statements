@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-disallow-switch-statements",
+  "name": "eslint-plugin-no-switch-statements",
   "version": "0.1.0",
-  "description": "An ESLint rule to totally disallow switch statements",
+  "description": "An ESLint rule to disallow switch statements",
   "keywords": [
     "eslint",
     "eslintplugin",
