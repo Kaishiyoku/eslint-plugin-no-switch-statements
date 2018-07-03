@@ -1,0 +1,43 @@
+{
+  "name": "eslint-plugin-disallow-switch-statements",
+  "version": "0.1.0",
+  "description": "An ESLint rule to totally disallow switch statements",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": {
+    "name": "Andreas Wiedel",
+    "email": "ich@andreas-wiedel.de",
+    "url": "https://www.andreas-wiedel.de"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint-ava-rule-tester": "^0.1.1",
+    "nyc": "^6.4.4",
+    "pify": "^3.0.0",
+    "xo": "^0.15.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 4
+  },
+  "ava": {
+    "files": [
+      "tests/**/*.js"
+    ]
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
