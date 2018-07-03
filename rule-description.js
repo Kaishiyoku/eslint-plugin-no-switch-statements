@@ -2,9 +2,9 @@
 
 const reqAll = require('req-all');
 const createIndex = require('create-eslint-index');
-const index = require('./');
+const index = require('./lib/index');
 
-const rules = reqAll('rules', {camelize: false});
+const rules = reqAll('lib/rules', {camelize: false});
 
 const settings = {
     descriptionField: 'meta.docs.description',
@@ -15,7 +15,7 @@ const exampleConfiguration = {
     name: 'my-awesome-project',
     eslintConfig: {
         plugins: [
-            'no-switch'
+            'no-switch-statements'
         ],
         rules: index.configs.recommended.rules
     }

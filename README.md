@@ -1,51 +1,60 @@
 # eslint-plugin-no-switch-statements
 
-An ESLint rule to disallow switch statements
+ESLint rule for disallowing the switch statement
 
-## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
-
-```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-no-switch-statements`:
+## Install
 
 ```
-$ npm install eslint-plugin-no-switch-statements --save-dev
+$ npm install --save-dev eslint eslint-plugin-no-switch-statements
 ```
-
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-switch-statements` globally.
 
 ## Usage
 
-Add `no-switch` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Configure it in `package.json`.
 
+<!-- EXAMPLE_CONFIGURATION:START -->
 ```json
 {
+  "name": "my-awesome-project",
+  "eslintConfig": {
     "plugins": [
-        "no-switch"
-    ]
+      "no-switch-statements"
+    ],
+    "rules": {
+      "no-switch-statements/no-switch": "error"
+    }
+  }
 }
 ```
+<!-- EXAMPLE_CONFIGURATION:END -->
 
 
-Then configure the rules you want to use under the rules section.
+## Rules
+
+<!-- RULES:START -->
+- [no-switch](docs/rules/no-switch.md) - prevent the usage of switch statements
+
+<!-- RULES:END -->
+
+## Recommended configuration
+
+This plugin exports a [`recommended` configuration](index.js) that enforces good practices.
+
+To enable this configuration, use the `extends` property in your `package.json`.
 
 ```json
 {
-    "rules": {
-        "no-switch-statements/rule-name": 2
-    }
+  "name": "my-awesome-project",
+  "eslintConfig": {
+    "plugins": [
+      "no-switch-statements"
+    ],
+    "extends": "plugin:no-switch-statements/recommended"
+  }
 }
 ```
 
-## Supported Rules
+See [ESLint documentation](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information about extending configuration files.
 
-* Fill in provided rules here
-
-
-
-
-
+MIT © [Andreas Wiedel](https://github.com/kaishiyoku)
