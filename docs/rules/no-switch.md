@@ -8,6 +8,7 @@ Further information: https://hackernoon.com/flip-the-switch-239d2d479a29
 
 ```js
 var test = 3;
+
 switch (test) {
     case 1:
         console.log('one');
