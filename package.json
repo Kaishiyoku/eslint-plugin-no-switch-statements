@@ -17,6 +17,10 @@
     "test": "xo && nyc ava",
     "update-md": "inject-in-tag ./rule-description.js README.md"
   },
+  "files": [
+    "lib/index.js",
+    "lib/rules"
+  ],
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.17.0",
