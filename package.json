@@ -4,8 +4,11 @@
   "description": "An ESLint rule to disallow switch statements",
   "keywords": [
     "eslint",
+    "plugin",
+    "eslint-plugin",
     "eslintplugin",
-    "eslint-plugin"
+    "switch",
+    "switchcase"
   ],
   "author": {
     "name": "Andreas Wiedel",
