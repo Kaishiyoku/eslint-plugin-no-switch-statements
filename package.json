@@ -14,14 +14,18 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "xo && nyc ava"
+    "test": "xo && nyc ava",
+    "update-md": "inject-in-tag ./rule-description.js readme.md"
   },
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.17.0",
+    "create-eslint-index": "^1.0.0",
     "eslint-ava-rule-tester": "^0.1.1",
+    "inject-in-tag": "^1.1.1",
     "nyc": "^6.4.4",
     "pify": "^3.0.0",
+    "req-all": "^1.0.0",
     "xo": "^0.15.1"
   },
   "peerDependencies": {
