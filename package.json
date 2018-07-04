@@ -15,6 +15,10 @@
     "email": "ich@andreas-wiedel.de",
     "url": "https://www.andreas-wiedel.de"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaishiyoku/eslint-plugin-no-switch-statements.git"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "xo && nyc ava",
