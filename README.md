@@ -42,7 +42,7 @@ Configure it in `package.json`.
 
 ## Recommended configuration
 
-This plugin exports a [`recommended` configuration](index.js) that enforces good practices.
+This plugin exports a [`recommended` configuration](lib/index.js) that enforces good practices.
 
 To enable this configuration, use the `extends` property in your `package.json`.
 
