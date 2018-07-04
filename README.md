@@ -1,6 +1,7 @@
 # eslint-plugin-no-switch-statements
 
 [![Build Status](https://travis-ci.org/Kaishiyoku/eslint-plugin-no-switch-statements.svg?branch=master)](https://travis-ci.org/Kaishiyoku/eslint-plugin-no-switch-statements)
+[![npm version](https://badge.fury.io/js/eslint-plugin-no-switch-statements.svg)](https://badge.fury.io/js/eslint-plugin-no-switch-statements)
 
 ESLint rule for disallowing the switch statement
 
