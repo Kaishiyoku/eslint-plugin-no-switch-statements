@@ -1,6 +1,6 @@
 # Forbid the use of `switch`
 
-Switch statements work but they are often considerer bad practice and harmful, e.g. when you forget `break` notations.
+Switch statements work but they are often considered bad practice and harmful, e.g. when you forget `break` notations.
 
 Further information: https://hackernoon.com/flip-the-switch-239d2d479a29
 
