@@ -61,5 +61,3 @@ To enable this configuration, use the `extends` property in your `package.json`.
 See [ESLint documentation](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information about extending configuration files.
 
 MIT © [Andreas Wiedel](https://github.com/kaishiyoku)
-
-/
