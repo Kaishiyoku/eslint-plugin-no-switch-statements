@@ -1,4 +1,4 @@
-# Forbid the use of `switch`
+# Prevent the use of `switch`
 
 Switch statements work but they are often considered bad practice and harmful, e.g. when you forget `break` notations.
 
